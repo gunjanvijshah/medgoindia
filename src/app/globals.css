@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a { color: #494b48;}
+a:hover, a:focus {
+ color:#1595CF;
+}
+

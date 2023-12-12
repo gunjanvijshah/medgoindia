@@ -10,7 +10,7 @@ import Faq from './components/Home/Faq'
 export default function HomePage() {
   return (
     < >
-      <HeroSection />
+    <HeroSection />
       <MedicalTourism />
       <MedicalTreatments />
       <WhyChooseUs />
