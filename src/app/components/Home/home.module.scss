@@ -1,0 +1,22 @@
+
+.medbanner {
+    background: rgb(150,213,211);
+    background: linear-gradient(156deg, rgba(150,213,211,1) 0%, rgba(115,201,200,1) 100%);
+    height: 370px;
+}
+
+.homebanner {
+    //background:url("../../images/home_banner_web.png"); 
+    position: relative;
+    h1 {
+        font-size: 40px;
+        color: #0470BA;
+        width: 50%;
+        text-align: center;
+       }
+       form {    position: absolute;
+        width: 415px;
+        right: 0;
+        top: 80px;}
+}
+
