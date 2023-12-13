@@ -60,13 +60,11 @@ const Header = () => {
             </div>
         </li>
         <li>
-          <a href="#" className="block py-2 px-3 md:p-0 ">Services</a>
+          <a href="#" className="block py-2 px-3 md:p-0 ">Medical Tourism</a>
         </li>
+       
         <li>
-          <a href="#" className="block py-2 px-3 md:p-0">Pricing</a>
-        </li>
-        <li>
-          <a href="#" className="block py-2 px-3 md:p-0">Contact</a>
+          <a href="#" className="block py-2 px-3 md:p-0">Enquire</a>
         </li>
       </ul>
     </div>

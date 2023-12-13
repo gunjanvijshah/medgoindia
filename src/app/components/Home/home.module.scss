@@ -1,22 +1,68 @@
 
 .medbanner {
-    background: rgb(150,213,211);
-    background: linear-gradient(156deg, rgba(150,213,211,1) 0%, rgba(115,201,200,1) 100%);
-    height: 370px;
+    background: #5bc2c5;
+  
+   
 }
 
 .homebanner {
-    //background:url("../../images/home_banner_web.png"); 
+    background:url("/images/home_banner_web.png"); 
     position: relative;
+    height: 370px;
+    align-items: center;
+    display:flex;
+    @media (max-width: 768px){
+height: 150PX;
+    }
     h1 {
         font-size: 40px;
         color: #0470BA;
         width: 50%;
         text-align: center;
+        @media (max-width: 992px) {
+            font-size: 20px;
+            width: 100%;
+        }
        }
-       form {    position: absolute;
-        width: 415px;
-        right: 0;
-        top: 80px;}
 }
 
+.medtmain {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 768px)
+    {
+       flex-direction:column-reverse;
+
+    }
+
+  
+}
+
+
+.medt {
+    width: 60%;
+    @media (max-width: 768px)
+    {
+        width: 90%;
+        margin: 5px auto;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 30px;
+        padding-bottom: 20PX;
+    }
+}
+
+
+.medform {   
+    width: 415px;
+    right: 0;
+    margin-top: -150px;
+    z-index: 5;
+
+    @media (max-width: 992px) {
+        width: 90%;
+        margin: 0 5%;
+
+       }
+    }
